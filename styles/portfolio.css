@@ -1,5 +1,6 @@
 :root{
     --branding-color: black;
+    --secondary-color: hotpink;
     --heading-font-family:'Playfair Display', serif;
     --default-font-family:'Poppins', sans-serif;
 }
@@ -15,12 +16,16 @@ font-family: var(--heading-font-family)
 }
 h1{
     font-size: 96px;
+    line-height: 1.5;
+}
+h2{
+    font-size: 64px;
 }
 p{
-    font-family: var(--default-font-family);
     font-weight: normal;
-    color: black
-
+    font-size:16px;
+    color: var(--branding-color);
+    line-height: 30px;
 }
 .hero {
     background-color: pink;
@@ -42,8 +47,48 @@ p{
 .btn-branding{
     background: hotpink;
     border-radius: 4px;
-    color:var(--branding-color)
+    color:var(--branding-color);
     font-size: 18px ;
     line-height: 27px ;
     padding: 15px 30px;
+    border: 1px solid var(--branding-color);
+}
+.btn-branding-outline{
+    background: white;
+    border-radius: 4px;
+    color: var(--secondary-color);
+    font-size: 18px ;
+    line-height: 27px ;
+    padding: 15px 30px;
+    border: 1px solid var(--branding-color);
+}
+.project-description{
+   padding: 120px 60px ; 
+}
+.watermelon-picture{
+    height: 560px;
+    width: 560px;
+}
+@media(max-width: 900px){
+    h1{
+        font-size: 44px;
+        line-height: 1.5;
+    }
+    h2{
+        font-size: 44px;
+    }
+    .hero {
+    padding: 80px 20px;
+    }
+
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+}
+.weather-app-picture{
+    background-color: pink;
+    height: 560px;
+    width: 560px;
+    padding: 120px 60px;
 }
