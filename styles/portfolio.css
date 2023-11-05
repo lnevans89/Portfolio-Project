@@ -48,16 +48,27 @@ p{
     text-align: center;
      padding: 0;
 }
-.content-container h1{
+.content{
+    padding: 160px 20px;
+}
+.content h1{
     font-size: 44px;
     line-height: 80px;
 }
-.content-container h2{
+.content h2{
      font-size: 18px;
     font-family: var(--default-font-family);
 }
-.content-container p{
+.content h3{
+    font-size: 24px;
+    line-height: 1.5;
+  
+    font-family: var(--default-font-family);
 }
+.content p{
+    font-size: 14px;
+}
+
 .content{
     margin: 30px;
 }
