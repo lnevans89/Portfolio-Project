@@ -97,6 +97,35 @@ p{
     height: 560px;
     width: 560px;
 }
+.logo{
+    max-width: 150px;
+    max-height: 41.82px;
+}
+nav{
+    padding: 20px 0;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #272142 ;
+    transition: all 150ms ease-in-out;
+}
+nav li.active a{
+    color: var(--secondary-color);
+}
+nav a:hover{
+    color: pink;
+}
+
 @media(max-width: 900px){
     h1{
         font-size: 44px;
