@@ -125,6 +125,30 @@ nav li.active a{
 nav a:hover{
     color: pink;
 }
+footer{
+    margin: 60px 0;
+}
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+footer .email-link:hover{
+    color: var(--secondary-color);
+}
+footer .social-links a{
+    margin: 0 15px;
+    color: var(--secondary-color);
+    background-color: pink;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer  .social-links a:hover{
+    color:white;
+    background: pink;
+}
 
 @media(max-width: 900px){
     h1{
