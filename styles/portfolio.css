@@ -21,6 +21,9 @@ h1{
 h2{
     font-size: 64px;
 }
+h4{
+    font-size: 32px;
+}
 p{
     font-weight: normal;
     font-size:16px;
@@ -128,6 +131,12 @@ nav a:hover{
 footer{
     margin: 60px 0;
 }
+footer .contact-box{
+    background: pink;
+    padding: 30px 60px;
+  border-radius: 3px;
+}
+
 footer .email-link{
     text-decoration: none;
     color: black;
@@ -148,6 +157,9 @@ footer .social-links a{
 footer  .social-links a:hover{
     color:white;
     background: pink;
+}
+footer .contact-box p{
+    padding: 30px;
 }
 
 @media(max-width: 900px){
